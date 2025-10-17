@@ -1,0 +1,20 @@
+/* App.css or Board.css */
+
+.game-container {
+  display: flex;
+  flex-direction: column; /* stack title and board */
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  min-height: 100vh;       /* take full viewport height */
+  background-color: #faf8ef; /* optional background color like 2048 */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px;
+}
+
+.board-row {
+  display: contents; /* needed so grid items align properly */
+}

@@ -1,0 +1,88 @@
+/* src/Tile.css */
+
+/* Base style for all tiles */
+.tile {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  color: #776e65;
+}
+
+/* Empty tile (0 value) */
+.tile-0 {
+  background-color: #cdc1b4;
+}
+
+/* Colors for each tile number */
+.tile-2 {
+  background-color: #eee4da;
+}
+
+.tile-4 {
+  background-color: #ede0c8;
+}
+
+.tile-8 {
+  background-color: #f2b179;
+  color: #f9f6f2;
+}
+
+.tile-16 {
+  background-color: #f59563;
+  color: #f9f6f2;
+}
+
+.tile-32 {
+  background-color: #f67c5f;
+  color: #f9f6f2;
+}
+
+.tile-64 {
+  background-color: #f65e3b;
+  color: #f9f6f2;
+}
+
+.tile-128 {
+  background-color: #edcf72;
+  color: #f9f6f2;
+}
+
+.tile-256 {
+  background-color: #edcc61;
+  color: #f9f6f2;
+}
+
+.tile-512 {
+  background-color: #edc850;
+  color: #f9f6f2;
+}
+
+.tile-1024 {
+  background-color: #edc53f;
+  color: #f9f6f2;
+}
+
+.tile-2048 {
+  background-color: #edc22e;
+  color: #f9f6f2;
+}
+
+/* Optional: Add small zoom animation when new tiles appear */
+.tile {
+  animation: pop 0.2s ease-in-out;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
