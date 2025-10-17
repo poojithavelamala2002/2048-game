@@ -50,14 +50,14 @@ This project demonstrates **core frontend engineering skills**, including:
    git clone https://github.com/<your-username>/2048-react-game.git
    cd 2048-react-game
 2. **Install dependencies**
-
+```
 npm install
-
+```
 
 ## Run the development server
-
+```
 npm run dev
-
+```
 
 Open the link shown in the terminal (usually http://localhost:5173).
 
