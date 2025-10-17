@@ -77,6 +77,6 @@ Try to reach 2048!
 ![Game Board](./images/board.png)
 
 ## Live Demo
-Check out the 2048 game live here: [Play 2048 Game](https://peppy-gecko-a0600e.netlify.app/)
+Check out the 2048 game live here: [Play 2048 Game](https://gmae2048.netlify.app/)
 
 
